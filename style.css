@@ -1,0 +1,65 @@
+body{
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+.icon-size{
+    height: 15px;
+    width: 15px;
+    margin-left: 30px;
+}
+
+.music-Player-background-color{
+    background-color: #000;
+}
+
+.moderatedark{
+    background-color: #121212;
+}
+.lightdark{
+    background-color: #1d1e1f;
+}
+
+
+.carousel-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.owl-carousel {
+    width: 80%;
+    display: flex;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.prev-btn {
+    left: -450px;
+
+    justify-content: flex-start;
+}
+
+.next-btn {
+    right: -450px;
+    justify-content: flex-end;
+}
+
+/* .prev-btn:hover, .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+} */
+
+
